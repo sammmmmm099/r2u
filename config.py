@@ -10,8 +10,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7900540474:AAGM-VFZbFJ0t-16EelYsutowr4GlhizTwY") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Luffy")     
-    DB_URL  = os.environ.get("DB_URL","mongodb")
+    DB_NAME = os.environ.get("DB_NAME","r2u")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://r2u:r2u@cluster0.kibuepf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
